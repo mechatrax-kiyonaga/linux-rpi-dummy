@@ -11,17 +11,12 @@ Homepage: https://mechatrax.com/
 
 Package: linux-image-rpi-dummy
 Architecture: armhf arm64
-Provides: raspberrypi-kernel, raspberrypi-kernel-mtx
-Conflicts: raspberrypi-kernel, raspberrypi-kernel-mtx
-Pre-Depends: mechatrax-firmware-migration-helper
 Depends: linux-image-rpi-v6 [armhf], linux-image-rpi-v7 [armhf], linux-image-rpi-v7l [armhf], linux-image-rpi-v8 [arm64], linux-image-rpi-2712 [arm64]
 Description: transitional dummy package
  This is a transitional dummy package for Raspberry Pi kernel. 
 
 Package: linux-headers-rpi-dummy
 Architecture: armhf arm64
-Provides: raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
-Conflicts: raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Depends: linux-headers-rpi-v6 [armhf], linux-headers-rpi-v7 [armhf], linux-headers-rpi-v7l [armhf], linux-headers-rpi-v8 [arm64], linux-headers-rpi-2712 [arm64]
 Description: transitional dummy package
  This is a transitional dummy package for Raspberry Pi kernel headers. 
