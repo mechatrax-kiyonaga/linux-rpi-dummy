@@ -1,0 +1,5 @@
+linux-rpi-dummy (0~20231115~mtx1) bookworm; urgency=medium
+
+  * Initial release
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Thu, 16 Nov 2023 08:24:40 +0900
