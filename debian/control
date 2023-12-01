@@ -11,6 +11,7 @@ Homepage: https://mechatrax.com/
 
 Package: linux-image-rpi-dummy
 Architecture: armhf arm64
+Recommends: mechatrax-firmware-dummy
 Depends: linux-image-rpi-v6 [armhf], linux-image-rpi-v7 [armhf], linux-image-rpi-v7l [armhf], linux-image-rpi-v8 [arm64], linux-image-rpi-2712 [arm64]
 Description: transitional dummy package
  This is a transitional dummy package for Raspberry Pi kernel. 
